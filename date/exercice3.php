@@ -9,8 +9,8 @@
 
 <?php
 
-setlocale (LC_TIME, 'fr_FR');
-strftime("%A %e %B %Y");
+setlocale (LC_TIME, 'fr_FR.utf8');
+echo strftime("%A %e %B %Y");
 
 ?>
 
