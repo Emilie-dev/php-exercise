@@ -10,7 +10,7 @@
 $dateTime1 = new DateTime('2016-05-16');
 $dateTime2 = new DateTime('2017-06-23');
 $interval = $dateTime1->diff($dateTime2); 
-echo $interval->format('%R%a days');
+echo "Il y a ".$interval->format('%R%a days')." d'interval entre le vendredi 23 juin 2017 et le lundi 16 mai 2016 !";
 
 ?>
 

@@ -13,7 +13,7 @@ $b = 50;
 for ($a = 0; $a <= 20; $a++) {
 
 	$c = $a * $b;
-	echo 'Le produit est:'.$c.'<br/>';
+	echo 'Le produit est : '.$c.'<br/>';
 }
 
 ?>

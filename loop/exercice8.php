@@ -8,7 +8,7 @@
 <?php
 
 for ($i= 200; $i >= 0 ; $i-=12) { 
-	echo $i."<strong>Enfin!!!</strong><br/>";
+	echo $i." : <strong>Enfin!!!</strong><br/>";
 }
 
 ?>

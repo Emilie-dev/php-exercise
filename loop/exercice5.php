@@ -8,7 +8,7 @@
 <?php
 
 for ($i=1; $i <= 15 ; $i++) { 
-	echo $i.'<strong>On y arrive presque.</strong><br/>';
+	echo $i.' : <strong>On y arrive presque.</strong><br/>';
 }
 
 

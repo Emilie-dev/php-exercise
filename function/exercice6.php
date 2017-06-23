@@ -8,7 +8,7 @@
 <?php
 
 function identity($firstname = "Tralala", $surname = "Toto", $age = 33) {
-	echo 'Bonjour '.$firstname.' '.$surname.' ,tu as '.$age.' ans.';
+	echo 'Bonjour '.$firstname.' '.$surname.' , tu as '.$age.' ans.';
 }
 
 echo identity();

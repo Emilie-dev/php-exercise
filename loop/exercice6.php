@@ -7,8 +7,8 @@
 
 <?php
 
-for ($i= 20; $i = 0 ; $i--) { 
-	echo $i."<strong>C\'est presque bon.</strong><br/>";
+for ($i= 20; $i >= 0 ; $i--) { 
+	echo $i." : <strong>C'est presque bon.</strong><br/>";
 }
 
 ?>

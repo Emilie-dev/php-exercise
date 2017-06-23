@@ -14,7 +14,7 @@ $b = 25;
 for ($a = 100; $a >= 11 ; $a--) { 
 
 	$c = $a * $b;
-	echo 'Le résultat est:'.$c.'<br/>';
+	echo 'Le résultat est : '.$c.'<br/>';
 }
 
 ?>

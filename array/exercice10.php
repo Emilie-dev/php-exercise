@@ -9,11 +9,11 @@ $HautsDeFrance = array(
 	);
 
 array_push($HautsDeFrance, array('51' => 'Marne'));
-print_r($HautsDeFrance);
+//print_r($HautsDeFrance);
 
 
 foreach($HautsDeFrance as $Code => $Departements){
-	echo 'Le département '.$Departements.' a le numéro '.$Code.'<br/>';
+	echo 'Le département '.$Departements.' a le numéro '.$Code.'.<br/>';
 }
 
 ?>
