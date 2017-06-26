@@ -12,14 +12,13 @@ setcookie('password', '1234', time() + 365*24*3600, null, null, false, true);
 </head>
 <body>
 
-<h2>Exercice sur les cookies :</h2>
+	<h2>Exercice sur les cookies :</h2>
 
-<form method="post" action="exercice4.php">
-	<input type="text" name="login" placeholder="login">
-	<input type="password" name="password">
-	<input type="submit" name="submit" value="OK">
-</form>
-
+	<form method="post" action="exercice4.php">
+		<input type="text" name="login" placeholder="login">
+		<input type="password" name="password">
+		<input type="submit" name="submit" value="OK">
+	</form>
 
 </body>
 </html>
