@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h2>Exercice sur les sessions : </h2>
+	<h2>Exercice sur les sessions : </h2>
 
 <?php
 
@@ -17,7 +17,7 @@ $_SESSION['age'] = 32;
 
 ?>
 
-<a href="session.php">Clique-moi !</a>
+	<a href="session.php">Clique-moi !</a>
 
 
 
